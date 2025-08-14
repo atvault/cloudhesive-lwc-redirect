@@ -1,6 +1,3 @@
-Aquí tenés un **README** que documenta claramente cómo logramos que un usuario, al hacer clic en "New" desde la lista de Oportunidades, ejecute un Screen Flow y al finalizar sea redirigido automáticamente a la Oportunidad recién creada.
-
----
 
 ## Flow Redirect Wrapper – README
 
