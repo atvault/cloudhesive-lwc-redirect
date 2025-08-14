@@ -1,0 +1,6 @@
+<aura:component implements="lightning:actionOverride,flexipage:availableForAllPageTypes"
+                access="global">
+    <!-- Embebemos tu LWC que ya redirige al FINISH -->
+    <c:flowRedirect flowApiName="ATV_New_Opportunity"
+                    outputVarName="oportunityId"/>
+</aura:component>

@@ -1,0 +1,10 @@
+<aura:component implements="lightning:availableForFlowActions" access="global">
+    <!-- Inputs desde Flow -->
+    <aura:attribute name="recordId" type="String" access="public"/>
+    <aura:attribute name="objectApiName" type="String" access="public" default="Opportunity"/>
+    <aura:attribute name="actionName" type="String" access="public" default="view"/>
+    <aura:attribute name="errorMessage" type="String" access="public"
+                    default="No se recibió un Id de registro para navegar."/>
+
+    <lightning:navigation aura:id="navService"/>
+</aura:component>

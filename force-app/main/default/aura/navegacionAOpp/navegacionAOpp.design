@@ -1,0 +1,7 @@
+<design:component>
+    <!-- Inputs que el Flow podrá mapear -->
+    <design:attribute name="recordId" label="Record Id (006… de la Opportunity)"/>
+    <design:attribute name="objectApiName" label="Objeto destino" />
+    <design:attribute name="actionName" label="Acción (view|edit)" />
+    <design:attribute name="errorMessage" label="Mensaje si falta Id" />
+</design:component>

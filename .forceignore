@@ -1,0 +1,9 @@
+# No subir tests de LWC
+**/__tests__/**
+
+# Archivos de config que tampoco van a la org
+**/jest.config.js
+**/.eslintrc*
+**/jsconfig.json
+
+**/.eslintrc.json
